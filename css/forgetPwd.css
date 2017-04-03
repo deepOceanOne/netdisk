@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+input{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+        
+#container{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+#header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	left:0;
+	top:0;
+	background-color: #eee;
+	box-shadow: 0 0 5px 5px #ccc;
+}
+
+#header img{
+	width:130px;
+	height:100%;
+	position: absolute;
+    left: 100px;
+    top:0; 
+}
+
+#header p{
+	line-height:90px;
+	color:#000;
+	font-size:25px;
+	font-family:"微软雅黑 Light";
+	position: absolute;
+    left: 260px;
+    top:0; 
+}
+
+#content{
+	width:100%;
+	height:550px;
+	background-color:#FFF;   
+}
+
+#content form{
+    width:400px;
+    height: 350px;
+    background-color: #fff;
+    position: absolute;
+    left:230px;
+    top:95px;
+}
+
+#content form #form-tips{
+	width:358px;
+    height: 35px;
+    color: black;
+    font-size: 14px;
+    font-family: "微软雅黑 Light";
+    text-align: left;
+    line-height: 35px;
+	position: absolute;
+    left:219px;
+    top:58px;
+}
+
+#content form #form-input{
+    width: 380px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 24px;
+}
+
+#content form #form-input p{   
+    font-size: 15px;
+    line-height: 35px;
+	margin-left:20px;
+    margin-top:10px;
+}
+
+#content form #form-input input{
+    width:150px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 8px;
+    margin-left:20px;
+    margin-top:0;
+    border:1px solid #ccc;
+}
+
+#content form #form-input #confirmDiv{
+	width:80px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+	text-align:center;
+    margin-left:210px;
+    margin-top:-37px;
+	background-color:#06C;
+}
+
+
+#content form #loginBtn{
+    width:80px;
+    height: 35px;
+    font-size: 15px;
+    font-family: "微软雅黑 Light";
+    text-align: center;
+    line-height: 35px;
+    color: #FFFFFF;
+    background-color: #09F;
+    border:1px solid #09F;
+	border-radius:5px;
+    position: absolute;
+    left:31px;
+    top:200px;
+}

@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+input{
+    outline: none;
+}
+        
+#container{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+#header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	left:0;
+	top:0;
+	background-color: #eee;
+	box-shadow: 0 0 5px 5px #ccc;
+}
+
+#header img{
+	width:130px;
+	height:100%;
+	position: absolute;
+    left: 100px;
+    top:0;  
+}
+
+#header p{
+	line-height:90px;
+	color:#000;
+	font-size:25px;
+	font-family:"微软雅黑 Light";
+	position: absolute;
+    left: 260px;
+    top:0; 
+}
+
+#content{
+	width:100%;
+	height:550px;
+	background-color:#FFF;   
+}
+
+#content form{
+    width:400px;
+    height: 350px;
+    background-color: #fff;
+    position: absolute;
+    left:230px;
+    top:110px;
+}
+
+#content form #form-input{
+    width: 380px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#content form #form-input input{
+    width:332px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 8px;
+    margin-left:20px;
+    margin-top:24px;
+    border:1px solid #ccc;
+}
+
+#content form #radioBtn{
+	font-size: 20px;
+    font-family: "微软雅黑 Light";
+	margin-top:20px;
+	margin-left:30px;
+}
+
+#content form #loginBtn{
+    width:342px;
+    height: 35px;
+    font-size: 20px;
+    font-family: "微软雅黑 Light";
+    text-align: center;
+    line-height: 35px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    background-color: red;
+    border:1px solid red;
+    position: absolute;
+    left:31px;
+    top:215px;
+}
