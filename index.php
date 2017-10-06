@@ -10,7 +10,7 @@ window.onload=function(){
 	var oUserPwd = document.getElementsByTagName("input")[1];
 	var oLogBtn = document.getElementById("loginBtn");
 	var oTips = document.getElementById("form-tips");
-	
+
 	oUser.onfocus = function(){
         this.placeholder = "";
     }
@@ -23,24 +23,22 @@ window.onload=function(){
     oUserPwd.onblur = function(){
         this.placeholder = "密码";
     }
-	
+
 	//用户登录时信息填写的验证
 	oLogBtn.onclick=function submitFun(){
 		if(oUser.value==""||oUserPwd.value==""){
-			oTips.style.borderColor = "#FFC1C1";	
-			oTips.style.backgroundColor="#FFE4E1";		
+			oTips.style.borderColor = "#FFC1C1";
+			oTips.style.backgroundColor="#FFE4E1";
 			oTips.style.color = 'red';
 			oTips.innerHTML = "请输入用户名和密码！";
 			return false;
-			
-			
-		}	
+
+
+		}
 		else
 			return true;
 	}
 }
-
-
 </script>
 </head>
 
